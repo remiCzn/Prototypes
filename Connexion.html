@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Connexion.css">
     <title>Connexion</title>
 </head>
 <body>
-    <h1>Bienvenue</h1>
-    <h2>Connectez-vous</h2>
-    <div>
-        <form>
-            <div>
-                <label for="username">Nom d'utilisateur</label>
-                <input type="text">
-            </div>
-            <div>
-                <label for="password">Mot de passe</label>
-                <input type="password">
-            </div>
+    <div class="main">
+        <h1>Bienvenue</h1>
+        <h2>Connectez-vous</h2>
+        <div class="main-form">
+            <form>
+                <div class="input-item">
+                    <label for="username" class="input-label">Nom d'utilisateur</label>
+                    <input class="input-box" type="text">
+                </div>
+                <div class="input-item">
+                    <label for="password" class="input-label">Mot de passe</label>
+                    <input class="input-box" type="password">
+                </div>
 
-            <input type="submit" value="Connexion">
-        </form>
+                <input type="submit" value="Connexion">
+            </form>
+            <a href="#">Inscription</a>
+        </div>
     </div>
 </body>
 </html>
